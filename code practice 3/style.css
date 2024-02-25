@@ -1,0 +1,10 @@
+div {
+    height: 100px;
+    width: 150px;
+    background-image: url(https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-size: cover;
+    position: fixed;
+        right: 0px;
+        top: 350px;
+color: white;
+}

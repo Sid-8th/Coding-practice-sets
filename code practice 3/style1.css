@@ -1,0 +1,36 @@
+div {
+    background-color: #c56d08;
+    height: 50px;
+    width: 400px;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+li {
+    list-style-type: none;
+        background-color: #ffbb00;
+        border-radius: 5px;
+        margin-top: 10px;
+        
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#one {
+    background-color: crimson;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 400px;
+width: 400px;
+}
+#two{
+    background-color: orange;
+        height: 200px;
+width: 220px;
+display: flex;
+align-items: center;
+}

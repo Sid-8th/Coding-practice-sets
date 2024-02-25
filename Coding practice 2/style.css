@@ -1,0 +1,46 @@
+ * {
+    font-family: 'Times New Roman', Times, serif;
+ }
+ #box {
+ color: beige;
+    background-color: blue;
+    /* font-family: cursive; */
+}
+.heading {
+    color: red;
+}
+#btn {
+    background-color: green;
+}
+#name {
+    text-align: center;
+    text-transform: capitalize;
+}
+#outer {
+    font-size: 25px;
+}
+#inner {
+    font-size: 10px;
+}
+.cls {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#navbar {
+    background-color: black;
+      height: 60px;
+    }
+    a {
+        margin-right: 300px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    #logo {
+        color: rgb(253, 194, 0);
+        font-size: 25px;
+    }
+    button {
+        background-color: rgb(255, 208, 0);
+    }

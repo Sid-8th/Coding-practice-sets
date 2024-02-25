@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(#ffffff , #cccccc , #dddddd , #aaaaaa , #ffffff )
+  }
+  .header {
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+      }
+      header > h1{
+        color: rgb(255, 166, 0);
+        letter-spacing: 0.2cm;
+        margin-bottom: 10px;
+        text-shadow: -5px 5px 10px;
+        background: #ffffff;
+        font-weight: 800;
+      }
+      header > p {
+        color:  red ;
+letter-spacing: 0.05cm;
+font-weight: bold;
+      }
+      .tribute {
+        display: grid;
+        justify-content: left;
+        grid-template-rows: 0.5fr 0.5fr;
+          max-width: 780px;
+  margin: 0px auto;
+  background: rgb(214, 129, 2);
+  color: black;
+  align-items: center;
+  padding: 0px 0px 0px 10px;
+      }
+      .tribute blockquote {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 800;
+      }
+      .tribute img {
+        max-width: 760px
+      }
+      .bio {
+        display: grid;
+        padding: 20px 20px;
+        margin: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        color: rgb(179, 39, 39);
+        text-align: center;
+        text-shadow: 3px 3px 6px ;
+      }
+      .bio img {
+        max-width: 100%;
+        padding: 20px ;
+        margin-left: 150px;
+      }
+      .head{
+        color: blueviolet;
+        text-shadow:5px 5px 7px;
+      }
+      .Ram {
+        color: orange;
+                background: #ff0202;
+      }
+      /* .bio {
+        margin: 2px auto;
+        padding: 0px 5px;
+        max-width: 400px;
+      }
+      
+      .bio > h2 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 1.2;
+      }
+      .bio > p {
+        font-size: 12px;
+        line-height: 1.4;
+        margin: 0px;
+        padding: 0px;
+      }
+      
+      .bio > hr {
+        margin-top: 20px;
+      } */
+  

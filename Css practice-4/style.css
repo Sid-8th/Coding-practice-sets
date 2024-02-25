@@ -1,0 +1,59 @@
+html {
+    background-color: #141414;
+}
+h1 {
+    margin: 50px;
+    font-family: Verdana;
+    color: #f80909;
+    text-shadow: -5px 2px 5px #141414;
+}
+.box {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(34, 65, 202);
+    box-shadow: 0 0 0px 12px rgb(46, 58, 109);
+    margin: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    /* animation-name: lefttoright;
+    animation-duration: 3s;
+    animation-timing-function: linear; */
+    animation: trip 3s linear 1s 2 alternate none;
+}
+/* @keyframes lefttoright {
+  0%  {
+translate: 0%;
+    }
+    50% 
+    {
+        translate: 50vw 50vh;
+    }
+    100% {
+        translate: calc(90vw - 100px);
+    }
+} */
+@keyframes trip {
+    0% {
+        transform: translate(200px, 0%);
+        background-color: #242424;
+    }
+    25% {
+        transform: translate(calc(90vw - 10%));
+        background-color: #343434
+    }
+    50% {
+        transform: translate(calc(90vw - 10%), 300px);
+        background-color: #fdda5c;
+    }
+    75% {
+        transform: translate(20%, 300px);
+        background-color: #ddfc58;
+    }
+    100% 
+    {
+        transform: translate(20%, 0%);
+        background-color: #000000;
+    }
+}
+
+

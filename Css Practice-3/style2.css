@@ -1,0 +1,64 @@
+
+.Cards {
+    background-color: #fdaa54;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5%;
+    transition: all 1s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .card-1 {
+    background-color: rgba(255, 145, 0, 0.925);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: all 1s ease-in;
+  }
+  .card-2 {
+    width: 150px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 10%;
+    transition: all 1s ease-in;
+   
+  }
+  .card-3 {
+    background-color: rgb(71, 226, 24);
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    transition: all 1s ease-in;
+  }
+  .card-3:hover {
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      translate: -550px 350px;
+      scale: 0.8;
+      rotate: -10deg;
+     
+      
+  }
+  .card-2:hover {
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      translate: 0px 300px;
+      scale: 0.7;
+      rotate: -10deg;
+      
+  }
+  .card-1:hover {
+      box-shadow: 5px 5px 20px 5px #e5ff00;
+      translate: 550px 350px;
+      scale: 0.9;
+     
+      
+  }
+  .Cards:hover {
+      box-shadow: rgba(0, 240, 100, 0.795) 0px 50px 100px -20px, rgba(245, 5, 5, 0.966) 0px 30px 60px -30px;
+      
+     
+  }

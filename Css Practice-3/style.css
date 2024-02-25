@@ -1,0 +1,33 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+   background-image: linear-gradient(to top right, rgb(231, 12, 12), rgb(211, 211, 58) , rgb(11, 245, 116) );
+width: 100%;
+height: 100vh; } 
+#box {
+    font-size: 67px;
+    color: #3106f0;
+    text-shadow: -5px 1px 10px #ff0000;
+    display: grid;
+    place-items: center;
+    
+}
+p{
+   font-size: 17px;
+    letter-spacing: 1.2px;
+    word-spacing: 2.2px;
+    line-height: 1.7;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: -3px 3px 6px #ffffff;
+}
+.section {
+    width: 700px;
+   color: chartreuse;
+    border: 7px solid rgb(226, 17, 87);
+    background-image: linear-gradient( to right top , #09eb09 ,#dd3309, #08fad2 , #7406f1 , #f1e206);
+    margin: auto;
+    box-shadow: 10px -0px 40px 20px rgb(33, 36, 35);
+         
+} 
