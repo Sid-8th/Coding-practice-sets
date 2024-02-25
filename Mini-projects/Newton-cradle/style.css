@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(0.25turn, #ffda45, #ebf8e1, #f69d3c);
+}
+.cradle {
+    background: transparent;
+width: 50vw;
+height: 50vh;
+border-top: 2rem solid darksalmon;
+border-radius: 0.5rem;
+display: flex;
+justify-content: center;
+gap: 3.5rem;
+}
+ div {
+    width: 0.5rem;
+    height: 20rem;
+    background: linear-gradient( darksalmon, rgb(187, 15, 15), lightblue) ;
+    position: relative;   
+}
+.cradle div::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -1.8rem;
+    width: 4rem;
+    aspect-ratio: 1;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+
+.cradle div:first-child {
+    animation: swing1 2s linear infinite;
+    transform-origin: top left;
+}
+@keyframes swing1 {
+    0% {
+        rotate: 0deg;
+    }
+    25% {
+        rotate: 50deg;
+    }
+    50%{
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
+.cradle div:last-child {
+    animation: swing2 2s linear 1s infinite;
+    transform-origin: top left;
+}
+@keyframes swing2 {
+    0% {
+        rotate: 0deg;
+    }
+    25% {
+        rotate: -50deg;
+    }
+    50%{
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}

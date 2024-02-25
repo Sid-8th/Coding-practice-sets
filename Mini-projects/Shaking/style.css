@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #7307bb8a;
+  display: grid;
+  place-items: center;
+}
+button {
+  padding: 8px 20px;
+  border: 4px solid rgb(38, 0, 255);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(1, 6, 26);
+  text-transform: capitalize;
+  background-color: transparent;
+
+  &:hover {
+    padding: 10px 30px;
+    border: 5px solid rgb(255, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(245, 248, 246);
+    background-color: #000000;
+    text-transform: uppercase;
+    animation: goaway 0.2s linear infinite;
+    
+  }
+}
+@keyframes goaway {
+  0% {
+    rotate: -20deg;
+  }
+  50% {
+    rotate: 20deg;
+  }
+  100% {
+    rotate: -20deg;
+  }
+}

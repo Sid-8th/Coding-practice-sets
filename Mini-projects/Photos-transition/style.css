@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.container-img {
+    width: 60vw;
+    height: 50rem;
+    border-radius: 1rem;
+   box-shadow: rgb(0, 0, 173) 0px 22px 70px 4px;;
+   background-image: url(./benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+   background-size: cover;
+   animation: Photos 50s linear 2s infinite ;
+}
+@keyframes Photos {
+0% {
+    background-image: url(./benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+}
+12.5% {
+    background-image: url(./kalen-emsley-_LuLiJc1cdo-unsplash.jpg);
+}
+25% {
+    background-image: url(./kalen-emsley-Bkci_8qcdvQ-unsplash.jpg);
+}
+37.5%{
+    background-image: url(./ken-cheung-KonWFWUaAuk-unsplash.jpg);
+}
+50%{
+    background-image: url(./mark-harpur-K2s_YE031CA-unsplash.jpg);
+}
+62.5%{
+    background-image: url(./milad-fakurian-4IjTS8vNnZA-unsplash.jpg);
+}
+75%{
+    background-image: url(./robert-lukeman-_RBcxo9AU-U-unsplash.jpg);
+}
+87.5%{
+    background-image: url(./v2osk-1Z2niiBPg5A-unsplash.jpg);
+}
+100%{
+    background-image: url(./benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+}
+}

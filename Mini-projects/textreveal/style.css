@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: #290131;
+    display: grid;
+    place-content: center;
+}
+h1 {
+    color: #ffffff;
+   
+    font-size: 100px;
+    font-weight: bold;
+    font-family:  sans-serif;
+    position: relative;
+    text-shadow: -2px 0px 5px #cf00f873;
+}
+
+h1::before {
+    content: "Mangalam";
+   
+    font-size: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: -2px 0px 5px #cf00f873;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   color: #ffd000;
+   border-right: 2px solid #ffd000;
+   overflow: hidden;
+   width: 50%;
+   animation: travel 3s linear infinite;
+   
+}
+@keyframes travel {
+    0% {
+        width: 0;
+    
+    }
+    50%  {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}
